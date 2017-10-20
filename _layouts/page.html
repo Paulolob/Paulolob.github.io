@@ -18,21 +18,27 @@
     <form action="https://formspree.io/paul-briand@outlook.fr" method="POST">
 
 
-                <div class="bun-top">
-                    Votre nom : <input type="text" name="name" value="">
-                </div>
-                <div class="tomato">
-                    Objet de message : <input type="text" name="object" value="">
-                </div>
-                <div class="onion">
-                votre mail : <input type="text" name="name" value="">
-              </div>
-                <div class="bun-bottom">
-                    Votre message : <textarea name="message"></textarea>
-                </div>
-                <div class="plate">
-                    <input type="submit" value="Envoyer">
-                </div>
+      <div class="burger">
+         <div class="bun-top">
+           <input id="one" type="text" name="firstname" placeholder="Firstname*" required>
+         </div>
+         <div class="cheese">
+           <input id="two" type="text" name="lastname" placeholder="Lastname*" required>
+         </div>
+         <div class="tomato">
+           <input id ="three" type="text" name="gender" placeholder="Gender">
+         </div>
+         <div class="cheese">
+           <input id="two" type="email" name="_replyto" placeholder="Mail*" required>
+      </div>
+          <div class="onion">
+            <textarea id="six" type="text" name="message" placeholder="objet du message" required></textarea>
+          </div>
+          <div class="bun-bottom">
+            <input id="eight" type="submit" name="envoyer">
+          </div>
+            <div class="plate"></div>
+            </div>
 
     </form>
 
